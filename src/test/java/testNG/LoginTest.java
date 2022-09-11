@@ -1,7 +1,5 @@
 package testNG;
 
-import org.apache.logging.log4j.Logger;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
@@ -11,7 +9,6 @@ import org.example.pages.LoginPage;
 
 import java.io.IOException;
 
-import static org.example.driver.BaseClass.driver;
 
 public class LoginTest extends BaseClass {
 public WebDriver driver;
