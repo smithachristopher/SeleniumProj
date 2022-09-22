@@ -20,7 +20,7 @@ public class LoginPage extends BaseClass {
     @FindBy(xpath ="//input[@id='login_password']" )
     public WebElement password;
 
-    @FindBy(xpath ="//div[contains(text(),\"Du bist nun bei Contorion angemeldet.\")]" )
+    @FindBy(xpath ="//div[contains(text(),\"\")]" )
     public WebElement confirmation;
 
     @FindBy(xpath ="//div[contains(text(),\"Bitte gib dein aktuelles Passwort ein.\")]" )

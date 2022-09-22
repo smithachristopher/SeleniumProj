@@ -59,7 +59,7 @@ public class BaseClass {
         }
         driver.manage().deleteAllCookies();
         driver.manage().window().maximize();
-        driver.get("https://www.contorion.de/login");
+        driver.get("");
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
         return driver;

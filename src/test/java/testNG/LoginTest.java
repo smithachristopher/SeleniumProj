@@ -22,7 +22,7 @@ public WebDriver driver;
         loginPage.password.sendKeys("Test@1234");
         loginPage.loginButton.click();
         System.out.println(driver.getCurrentUrl());
-        Assert.assertEquals(loginPage.confirmation.getText(),"Du bist nun bei Contorion angemeldet.");
+        Assert.assertEquals(loginPage.confirmation.getText(),"");
 
     }
 
@@ -35,7 +35,7 @@ public WebDriver driver;
         loginPage.password.sendKeys("xxxx");
         loginPage.loginButton.click();
         System.out.println(driver.getCurrentUrl());
-        Assert.assertEquals(loginPage.error.getText(),"Bitte gib dein aktuelles Passwort ein.");
+        Assert.assertEquals(loginPage.error.getText(),"");
     }
 
 }
